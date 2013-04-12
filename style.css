@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
 	padding: 0;
-	font-family: "etica-display-1","etica-display-2";
+	font-family: "etica-display-1","etica-display-2", sans-serif;
 	color: rgb(35,32,31);
 	font-weight: 700;
 	text-align: center;
