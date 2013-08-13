@@ -10,9 +10,13 @@ body {
 .wrapper {
 	width: 400px;
 	height: 300px;
-	border: 1px solid rgba(35,31,32,.3);
-	margin: 50px auto;
+	margin: 170px auto;
 	padding: 0px;
+	transition: .5s all ease;
+}
+
+.wrapper:hover {
+	-webkit-transform: translateY(-10px);
 }
 
 .outsides {
@@ -80,7 +84,7 @@ body {
 	height: 30px;
 	background-color: rgb(140, 198, 63);
 	-webkit-transform: skew(-28deg) rotate(-5deg);
-	border-left: 7px solid white;
+	box-shadow: -7px 0px 0px white;
 }
 
 .dot {
